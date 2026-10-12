@@ -8,7 +8,7 @@ class Solution:
             temp//=10
             rev = rev*10 + r
 
-        return rev==x
+        return rev==x     
 
 obj=Solution()
 print(obj.isPalindrome(121))        
